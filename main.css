@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates&display=swap');
+
+
+
 * {
     box-sizing: border-box;
-    font-family: 'Made Outer Sans Outline', Helvetice, sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   
   html, body {
@@ -8,9 +12,24 @@
     height: 100%;
     margin: 0;
     padding: 0;
-    background: rgb(235, 235, 235);;
+    background: rgb(245, 245, 245);;
   }
   
+  i {
+    background: #fff;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius:50%;
+    display:inline-block;
+    padding:10px;
+  }
+
+  img {
+    display:block;
+  }
+
   a {
     color: inherit;
     text-decoration: none;
@@ -25,7 +44,7 @@
   }
   
   a > .underline {
-    background: #FEE6D2;
+    background: rgb(195, 206, 196);
     opacity: 0.6;
     width: 100%;
     height: 100%;
@@ -50,14 +69,16 @@
   }
   
   .site-intro {
-    background-color: #fff1e9;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    transition: 2s;
     padding: 60px 80px;
   }
   
   .site-intro > header {
     display: flex;
     justify-content: space-between;
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
   
   .site-intro > .site-title {
@@ -81,7 +102,7 @@
     font-size: 16px;
     line-height: 0;
     transform-origin: 0 0;
-    width: 120px;
+    /* width: 120px; */
   }
   
   .site-content ul {
@@ -113,7 +134,11 @@
     z-index: 1;
     position: relative;
   }
-  
+
+  .site-projects {
+    margin-top: 30px;
+  }
+
   footer {
     padding: 60px 80px;
     padding-top: 0;
